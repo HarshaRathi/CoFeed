@@ -22,15 +22,14 @@ import { createAppContainer } from 'react-navigation';
 
 console.disableYellowBox = true;
 
-var config = {
-  apiKey: "AIzaSyBkpt6HFwXiU09qrc7Jk1BvWLGsDx5U9j4",
-  authDomain: "login2-6d807.firebaseapp.com",
-  databaseURL: "https://login2-6d807.firebaseio.com",
-  projectId: "login2-6d807",
-  storageBucket: "login2-6d807.appspot.com",
-  messagingSenderId: "803075299968",
-  appId: "1:803075299968:web:7abd54fb0b5a88d3e92465",
-  measurementId: "G-VPMHGQ9VLC"
+var config={
+   apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    authDomain: "reactnativefirebase-00000.firebaseapp.com",
+    databaseURL: "https://reactnativefirebase-00000.firebaseio.com",
+    projectId: "reactnativefirebase-00000",
+    storageBucket: "reactnativefirebase-00000.appspot.com",
+    messagingSenderId: "000000000000000",
+    appId: "1:000000000000000:web:000000000000000"
 };
 
 if (!(firebase.apps.length)) {
